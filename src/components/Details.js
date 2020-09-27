@@ -6,9 +6,12 @@ import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
 import useStyles from "./Album/AlbumStyles";
 import Navbar from "./Navbar";
-import { Link } from "react-router-dom";
+import auth from "../auth/auth";
+import Footer from "./Footer"
 
-const Details = () => {
+
+
+const Details = (props) => {
   const classes = useStyles();
 
   return (
@@ -38,19 +41,27 @@ const Details = () => {
             <Grid container spacing={2} justify="center">
               <Grid item></Grid>
               <Grid item>
+
+
                 <Button
-                  component={Link}
-                  to="/app"
+                  onClick={() => {
+                    auth.logout(() => {
+                      props.history.push("/");
+                    });
+                  }}
                   variant="contained"
                   color="primary"
                 >
-                  Go back
+                  Logout
                 </Button>
+
+
               </Grid>
             </Grid>
           </div>
         </Container>
       </div>
+      <Footer/>
     </>
   );
 };

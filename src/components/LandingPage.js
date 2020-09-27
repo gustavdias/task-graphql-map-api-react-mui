@@ -8,6 +8,7 @@ import Container from "@material-ui/core/Container";
 import useStyles from "./Album/AlbumStyles";
 import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
+import Footer from "./Footer"
 
 const LandingPage = (props) => {
   const classes = useStyles();
@@ -112,6 +113,7 @@ const LandingPage = (props) => {
           </div>
         </Container>
       </div>
+      <Footer/>
     </>
   );
 };

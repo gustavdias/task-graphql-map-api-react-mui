@@ -10,6 +10,7 @@ import Container from "@material-ui/core/Container";
 import Links from "@material-ui/core/Link";
 import useStyles from "./AlbumStyles";
 import Navbar from "../Navbar";
+import Footer from "../Footer"
 
 import { Link } from "react-router-dom";
 
@@ -109,7 +110,7 @@ export default function Album() {
       </main>
       {/* Footer */}
       <footer className={classes.footer}>
-        <Copyright />
+        <Footer/>
       </footer>
       {/* End footer */}
     </React.Fragment>
