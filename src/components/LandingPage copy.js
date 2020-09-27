@@ -67,37 +67,28 @@ const LandingPage = (props) => {
                 >
                   Login
                 </Button>
-              </Grid>
-            </Grid>
-          </div>
 
-          <div className={classes.heroButtons}></div>
-          <Typography
-            variant="p"
-            align="center"
-            color="textSecondary"
-            paragraph
-          >
-            Please know that if you try to access the app (*/app) without login,
-            your access will be denied and you will be redirected to this page.
-            You can it try it by clicking on the button below.
-          </Typography>
-          <Typography
-            variant="p"
-            align="center"
-            color="textSecondary"
-            paragraph
-          >
-            Обратите внимание, что если вы попытаетесь получить доступ к
-            приложению (* / app) без входа в систему, вам будет отказано в
-            доступе и вы будете перенаправлены на эту страницу. Вы можете
-            попробовать, нажав на кнопку ниже.
-          </Typography>
-
-          <div className={classes.heroButtons}>
-            <Grid container spacing={2} justify="center">
-              <Grid item></Grid>
-              <Grid item>
+                <Typography
+                  variant="p"
+                  align="center"
+                  color="textSecondary"
+                  paragraph
+                >
+                  Please know that if you try to access the app (*/app) without
+                  login, your access will be denied and you will be redirected
+                  to this page. You can it try it here:
+                </Typography>
+                <Typography
+                  variant="p"
+                  align="center"
+                  color="textSecondary"
+                  paragraph
+                >
+                  Обратите внимание, что если вы попытаетесь получить доступ к
+                  приложению (* / app) без входа в систему, вам будет отказано в
+                  доступе и вы будете перенаправлены на эту страницу. Вы можете
+                  попробовать это здесь:
+                </Typography>
                 <Button
                   component={Link}
                   to="/app"

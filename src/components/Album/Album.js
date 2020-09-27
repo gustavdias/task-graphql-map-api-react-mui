@@ -11,8 +11,7 @@ import Links from "@material-ui/core/Link";
 import useStyles from "./AlbumStyles";
 import Navbar from "../Navbar";
 
-import { Link } from 'react-router-dom';
-
+import { Link } from "react-router-dom";
 
 //graphql
 import { gql } from "apollo-boost";

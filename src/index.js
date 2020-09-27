@@ -16,7 +16,7 @@ ReactDOM.render(
   <React.Fragment>
     <ThemeProvider theme={theme}>
       <ApolloProvider client={client}>
-      <CssBaseline />
+        <CssBaseline />
         <Router>
           <App />
         </Router>

@@ -3,8 +3,7 @@ import Album from "./components/Album/Album";
 import { Route, Switch } from "react-router-dom";
 import Details from "./components/Details";
 import { ProtectedRoute } from "./auth/protected.route";
-import  LandingPage  from "./components/LandingPage";
-
+import LandingPage from "./components/LandingPage";
 
 function App() {
   return (
