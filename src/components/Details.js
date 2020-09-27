@@ -44,7 +44,7 @@ const Details = () => {
                   variant="contained"
                   color="primary"
                 >
-                  Logout
+                  Go back
                 </Button>
               </Grid>
             </Grid>

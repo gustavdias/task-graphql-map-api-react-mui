@@ -80,7 +80,7 @@ const LandingPage = (props) => {
           >
             Please know that if you try to access the app (*/app) without login,
             your access will be denied and you will be redirected to this page.
-            You can it try it by clicking on the button below.
+            You can it try it by clicking on the button below. Don't forget to clean up your cookies :)
           </Typography>
           <Typography
             variant="p"
@@ -91,7 +91,7 @@ const LandingPage = (props) => {
             Обратите внимание, что если вы попытаетесь получить доступ к
             приложению (* / app) без входа в систему, вам будет отказано в
             доступе и вы будете перенаправлены на эту страницу. Вы можете
-            попробовать, нажав на кнопку ниже.
+            попробовать, нажав на кнопку ниже. Не забудьте очистить куки :)
           </Typography>
 
           <div className={classes.heroButtons}>
