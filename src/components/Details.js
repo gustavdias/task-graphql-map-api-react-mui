@@ -40,7 +40,7 @@ const Details = () => {
               <Grid item>
                 <Button
                   component={Link}
-                  to="/"
+                  to="/app"
                   variant="contained"
                   color="primary"
                 >
