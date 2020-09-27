@@ -58,7 +58,7 @@ export default function Album() {
 
           return data.characters.results.map((character) => {
             return (
-              <>
+              
                 <Grid item key={character.id} xs={12} sm={6} md={4}>
                   <Card className={classes.card}>
                     <CardMedia
@@ -86,7 +86,7 @@ export default function Album() {
                     </CardActions>
                   </Card>
                 </Grid>
-              </>
+              
             );
           });
         }}

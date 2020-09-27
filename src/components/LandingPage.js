@@ -73,7 +73,7 @@ const LandingPage = (props) => {
 
           <div className={classes.heroButtons}></div>
           <Typography
-            variant="p"
+            variant="h6"
             align="center"
             color="textSecondary"
             paragraph
@@ -83,7 +83,7 @@ const LandingPage = (props) => {
             You can it try it by clicking on the button below. Don't forget to clean up your cookies or open a new private browser window :)
           </Typography>
           <Typography
-            variant="p"
+            variant="h6"
             align="center"
             color="textSecondary"
             paragraph
